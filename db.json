@@ -3,6 +3,54 @@
     { "id": "21",
        "resources": {
           "securityGroups": {
+              "ref": "https://jsonplaceholder.typicode.com/todos/21"
+          }
+       },
+       "displayName" : "Bill Jackson",
+       "emails": [
+          {
+              "value": "bill.jackson@mydomain.com"
+          },
+          {
+              "value": "admin@mydomain.com"
+          }
+        ],
+        "jive": {
+            "enabled": true,
+            "level": {
+                "name": "Level 0"
+            },
+            "username": "bill.jackson"
+        }
+    },
+    { "id": "198",
+       "resources": {
+          "securityGroups": {
+              "ref": "https://jsonplaceholder.typicode.com/todos/198"
+          }
+       },
+       "displayName" : "Mickael Jackson",
+       "emails": [
+          {
+              "value": "mickael.jackson@mydomain.com"
+          },
+          {
+              "value": "sampleuser@mydomain.com"
+          }
+        ],
+        "jive": {
+            "enabled": true,
+            "level": {
+                "name": "Level 0"
+            },
+            "username": "mickael.jackson"
+        }
+    }
+  ],
+  "autre": [
+    { "id": "21",
+       "resources": {
+          "securityGroups": {
               "ref": "https://jsonplaceholder.typicode.com/todos/2"
           }
        },
