@@ -1,0 +1,27 @@
+{
+  "list": [
+    { "id": "21",
+       "resources": {
+          "securityGroups": {
+              "ref": "https://jsonplaceholder.typicode.com/todos/2"
+          }
+       },
+       "displayName" : "Bill Jackson",
+       "emails": [
+          {
+              "value": "bill.jackson@mydomain.com"
+          },
+          {
+              "value": "admin@mydomain.com"
+          }
+        ],
+        "jive": {
+            "enabled": true,
+            "level": {
+                "name": "Level 0"
+            },
+            "username": "bill.jackson"
+        }
+    }
+  ]
+}
